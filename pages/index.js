@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import RoomForm from '../components/RoomForm';
-import '../styles/globals.css';
+
 
 export default function Home() {
   const [rooms, setRooms] = useState([{ id: 1, area: '', layers: 4, type: 'standard' }]);
